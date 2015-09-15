@@ -1,0 +1,16 @@
+﻿@{
+    this.Layout = "~/Views/Shared/_Base.cshtml";
+}
+
+@section Styles
+{
+	<link rel="stylesheet" type="text/css" href="~/Styles/Shared/Basic.css" />
+	@this.RenderSection("Styles", false)
+}
+
+@this.RenderBody()
+
+@section Scripts
+{
+	@this.RenderSection("Scripts", false)
+}

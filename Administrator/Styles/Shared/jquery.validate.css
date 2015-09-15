@@ -1,0 +1,28 @@
+﻿
+
+error
+{
+	width: 0px;
+	height: 0px;
+	overflow: visible;
+	white-space: nowrap;
+	position: relative;
+	display: none;
+	vertical-align: baseline;
+}
+
+error > label.error
+{
+	position: absolute;
+	top: -4px;
+	left: 2px;
+	border-width: 1px;
+	color: red;
+	padding: 2px;
+	z-index: 0;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	margin: 0px;
+}

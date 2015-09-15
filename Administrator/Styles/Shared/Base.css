@@ -1,0 +1,21 @@
+﻿html,
+body,
+iframe
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+textarea
+{
+	resize: none;
+	overflow: auto;
+}
+
+input,
+textarea,
+input:focus,
+textarea:focus
+{
+	outline: 0px solid transparent;
+}

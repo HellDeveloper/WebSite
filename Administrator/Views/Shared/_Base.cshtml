@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	@this.Html.Partial("~/Views/Shared/_Meta.cshtml")
+	<title>@this.ViewData["Title"]</title>
+	<link rel="stylesheet" type="text/css" href="~/Styles/Shared/Fonts.css" />
+	<link rel="stylesheet" type="text/css" href="~/Styles/Shared/Base.css" />
+	<link rel="stylesheet" type="text/css" href="~/Styles/Shared/jquery.validate.css" />
+	@this.RenderSection("Styles", false)
+</head>
+<body>
+	@this.RenderBody()
+	<div class="scripts">
+		<script type="text/javascript" src="~/Scripts/Shared/jquery-1.10.2.js"></script>
+		<script type="text/javascript" src="~/Scripts/Shared/jquery.validate.js"></script>
+		@this.RenderSection("Scripts", false)
+	</div>
+</body>
+</html>
