@@ -11,7 +11,12 @@ namespace Administrator.Controllers
 
         public ActionResult Index()
         {
-            return View();
+            return this.View();
+        }
+
+        public ActionResult Menubar()
+        {
+            return this.View();
         }
 
     }
